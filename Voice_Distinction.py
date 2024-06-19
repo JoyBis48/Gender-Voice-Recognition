@@ -62,9 +62,6 @@ model.load_weights("saved_model.h5")
 st.title("Voice Gender Detection")
 st.write("This application detects the gender from recorded voice using a n.")
 
-# Sidebar parameter for recording duration
-duration = st.sidebar.slider("Recording Duration (seconds)", 1, 10, 4)
-
 # Option to upload a file
 uploaded_file = st.file_uploader("Upload an audio file", type=['wav', 'mp3'])
 
