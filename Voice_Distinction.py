@@ -48,7 +48,7 @@ model.load_weights("saved_model.h5")
 
 # Streamlit app
 st.title("Voice Gender Detection")
-st.write("This application detects the gender from recorded voice using a n.")
+st.write("This application detects the gender from recorded voice using a Multilayer Perceptron")
 
 # Option to upload a file
 uploaded_file = st.file_uploader("Upload an audio file", type=['wav', 'mp3'])
