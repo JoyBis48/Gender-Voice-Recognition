@@ -65,7 +65,7 @@ def classify_gender(file_path):
     male_prob = model.predict(features, verbose=0)[0][0]
     female_prob = 1 - male_prob
     gender = "male" if male_prob > female_prob else "female"
-    probability = round(male_prob, 2) if gender == "male" else round(female_prob, 2)
+    probability = "{:.2f}".format(male_prob) if gender == "male" else "{:.2f}".format(female_prob)
     return gender, probability
 
 if uploaded_file is not None:
