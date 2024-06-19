@@ -9,7 +9,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 import matplotlib.pyplot as plt
 from scipy.io.wavfile import write, read as wav_read 
-# import sounddevice as sd    
 from st_audiorec import st_audiorec
 
 
