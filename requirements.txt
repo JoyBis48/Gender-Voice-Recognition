@@ -1,7 +1,7 @@
-streamlit==1.35.0
+streamlit
 librosa==0.9.2
-tensorflow==2.16.1
+tensorflow
 scipy
-sounddevice
 numpy
 matplotlib
+st-audiorec
