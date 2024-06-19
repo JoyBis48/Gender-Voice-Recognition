@@ -1,5 +1,3 @@
-# type: ignore
-
 # Importing the required libraries
 import io
 import streamlit as st 
