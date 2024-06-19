@@ -3,6 +3,5 @@ librosa==0.9.2
 tensorflow==2.16.1
 scipy
 sounddevice
-pyaudio
 numpy
 matplotlib
