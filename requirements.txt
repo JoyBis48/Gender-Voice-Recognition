@@ -2,8 +2,7 @@ streamlit==1.35.0
 librosa==0.9.2
 tensorflow==2.16.1
 scipy
-SpeechRecognition
-pydub
+sounddevice
 pyaudio
 numpy
 matplotlib
